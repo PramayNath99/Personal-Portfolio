@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact {
+    width: 80%;
+    height: 100%;
+     margin-left: 200px;
+     padding: 50px 0;
+  background-image: url(Ariel_23-05-13_23-00-09-010.jpg);
+     text-align: center;
+      
+ }
+ .container {
+    border: 1px solid rgb(255, 255, 255);
+    margin-left: 150px;
+    backdrop-filter: blur(5px);
+  width: 80%;
+  
+ }
+ 
+
+ .contact h2 {
+     font-size: 2.5rem;
+     margin-bottom: 20px;
+ }
+ .contact p {
+     font-size: 1rem;
+     margin-bottom: 20px;
+ }
+ 
+ form input,
+ form textarea {
+     width: 80%;
+     padding: 12px;
+     margin-bottom: 10px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+ }
+ 
+ form button {
+     padding: 12px 20px;
+     background-color: #3e81be;
+     color: rgb(0, 0, 0);
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 1.1rem;
+     margin-bottom: 10px;
+ }
+ 
+ form button:hover {
+     background-color: #77b1d8;
+ }
